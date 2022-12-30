@@ -1,5 +1,6 @@
 import { async } from 'q';
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const LeftSideNav = () => {
     const [categories, setCategories] = useState([]);
@@ -14,7 +15,17 @@ const LeftSideNav = () => {
     },[])
     return (
         <div>
-            <h2>All categories {categories.length} </h2>
+            <h4>All categories {categories.length} </h4>
+            {
+                categories.map(function(category ){
+                    return <p key={category.id}>
+                        <Link >
+                            {category.name}
+                        </Link>
+                    </p>
+                })
+            }
+
         </div>
     );
 };
