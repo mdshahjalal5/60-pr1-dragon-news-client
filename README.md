@@ -1,5 +1,5 @@
 # 61 Firebase auth recap and data load 
-## & react er boolean com pro dev host in the server  
+## & react er boolean com pro dev host  and provide in the server  
 ph code : https://github.com/ProgrammingHero1/dragon-news-server-module-61 
 **client : https://github.com/ProgrammingHero1/dragon-news-client-module-61 
 
