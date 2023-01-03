@@ -1,10 +1,10 @@
-import { async } from 'q';
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const LeftSideNav = () => {
     const [categories, setCategories] = useState([]);
-    console.log(categories)
+
+    // console.log(categories)
     const datas = async() =>{
         const res = await fetch('http://localhost:5000/news-categories');
         const data = await res.json();
@@ -14,12 +14,12 @@ const LeftSideNav = () => {
         datas();
     },[])
     return (
-        <div>
-            <h4>All categories {categories.length} </h4>
+        <div >
+            <h6>All categories {categories.length} </h6>
             {
                 categories.map(function(category ){
                     return <p key={category.id}>
-                        <Link >
+                        <Link to={`category/${category.id}`}>
                             {category.name}
                         </Link>
                     </p>
