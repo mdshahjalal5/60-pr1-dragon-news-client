@@ -93,7 +93,9 @@ ph code : https://github.com/ProgrammingHero1/dragon-news-server-module-61
 ex>app>cor>use>get>listen
  get>path>func 
  listen>port     
-
+server 6 ver => 
+=> ver = vercel => verOn  =>ver --prod  => vercel.json (vercel config) => vercel --prod 
+ > vercel => vercel --prod => changeSettings y => vercle config 
 
 # FIREBASE HOSTING > 
   & net fire git 
