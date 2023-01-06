@@ -1,29 +1,29 @@
 # firebase authentication 
  1. init(sdk) >> firebaseConfig, app, auth 
  2. sign up 
-       --(auth, email, pass)
-            .then(userCred.user)
-            .catch(error.code, error.message)
+ >      --(auth, email, pass)
+ >          .then(userCred.user)
+ >          .catch(error.code, error.message)
 
  > #Firebase Classification 
- IMU  => ini method u =>
+> IMU  => ini method u =>
 > => ini =>  i con app auth 
 > => Method => sign verify ob up 
 > => sign => sign up sign in 
-=> signUp(auth, mail, pass)  => createUserWithEmailAndPassword()
+> => signUp(auth, mail, pass)  => createUserWithEmailAndPassword()
 > => sign in 3 => pop re mail 
-        => signInWithPopUp() => signInWithRedirect => 
-        => sign pop => auth prov => prov => new faceGitTweatGoogle 
+>        => signInWithPopUp() => signInWithRedirect => 
+>        => sign pop => auth prov => prov => new faceGitTweatGoogle 
 > => verify => verify reset => verify cu => reset auth mail =>  sendEmailVerification(auth.currentUser) => sendPassworResetEmail(auth, email)  
 > up => Delete pro pass mail=> deleteUser> updateProfile() => updatePassword => updateEmail(cu, email)    
-   => pro => cu ob => auth.currentUser => obj ={dName, photoURl}    
-   => pass => cu newPass
-   => mail => cu mail => 
-   => delete 
+>   => pro => cu ob => auth.currentUser => obj ={dName, photoURl}    
+>  => pass => cu newPass
+>  => mail => cu mail => 
+>  => delete 
 # firebase user data  ==> 
-auth.currentUser > prom.then(f(para))
-        d mail verify photo u  
-            displayName> email> emailVerified> photoURL> uid
+>auth.currentUser > prom.then(f(para))
+>       d mail verify photo u  
+>           displayName> email> emailVerified> photoURL> uid
 
  # k shot 
   > win abdetx
@@ -34,8 +34,8 @@ auth.currentUser > prom.then(f(para))
 
 # 61 Firebase auth recap and data load 
 ## & react er boolean com pro dev host  and provide in the server  
-ph code : https://github.com/ProgrammingHero1/dragon-news-server-module-61 
-**client : https://github.com/ProgrammingHero1/dragon-news-client-module-61 
+> ph code : https://github.com/ProgrammingHero1/dragon-news-server-module-61 
+> **client : https://github.com/ProgrammingHero1/dragon-news-client-module-61 
 
 # direction 
 1. data loading from backend 
@@ -46,11 +46,11 @@ ph code : https://github.com/ProgrammingHero1/dragon-news-server-module-61
  
 # ***==> learning 
 1. keyShort ==> ctrl e, p, tab , f6
-2. dev => comp => props , hooks, render, source 
-3. props ==> 
-    3.1 children 
-	3.2 value 
-	3.3 new entry  
+>2. dev => comp => props , hooks, render, source 
+>3. props ==> 
+ >   3.1 children 
+>	3.2 value 
+>	3.3 new entry  
 # 4. hooks ==> 
 	4.1 state ([10])
 	4.2 effect 
