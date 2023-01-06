@@ -6,7 +6,7 @@ const LeftSideNav = () => {
 
     // console.log(categories)
     const datas = async() =>{
-        const res = await fetch('http://localhost:5000/news-categories');
+        const res = await fetch('https://62-clo-server.vercel.app/news-categories');
         const data = await res.json();
         setCategories(data);
     }
